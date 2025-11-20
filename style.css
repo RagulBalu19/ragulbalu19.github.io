@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    color: #fff;
+    background: #121212;
+}
+
+header {
+    width: 100%;
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #1a1a1a;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+header .logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+header nav a {
+    margin-left: 20px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.hero {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero h1 {
+    font-size: 48px;
+}
+
+.hero h1 span {
+    color: #ff9800;
+}
+
+.hero p {
+    margin: 10px 0;
+    font-size: 18px;
+}
+
+.btn {
+    margin-top: 15px;
+    background: #ff9800;
+    padding: 10px 20px;
+    color: #000;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.about, .projects, .contact {
+    padding: 100px 40px;
+    margin-top: 50px;
+}
+
+h2 {
+    margin-bottom: 20px;
+    font-size: 32px;
+    color: #ff9800;
+}
+
+.projects .project-container {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.project-card {
+    background: #1f1f1f;
+    padding: 20px;
+    width: 30%;
+    border-radius: 10px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #1a1a1a;
+    margin-top: 40px;
+}
